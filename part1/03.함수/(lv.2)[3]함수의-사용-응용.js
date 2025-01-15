@@ -20,5 +20,9 @@ const hasLicense = true;
 let canDriveResult;
 let adultResult;
 
+total = calcTotal(price, quantity);
+canDriveResult = canDrive(age, hasLicense);
+adultResult = checkAdult(age);
+
 // export 를 수정하지 마세요.
 export { total, canDriveResult, adultResult };
